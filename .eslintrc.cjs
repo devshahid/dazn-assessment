@@ -25,6 +25,6 @@ module.exports = {
     indent: 'off',
     quotes: ['error', 'single'],
     semi: ['error', 'always'],
-    'no-unused-vars': 'off',
   },
+  ignores: ['node_modules/', 'dist/', '*.png'],
 };
